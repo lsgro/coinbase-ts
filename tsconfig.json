@@ -3,9 +3,14 @@
     "target": "es6",
     "module": "es6",
     "sourceMap": true,
-    "outDir": "dist",
+    "rootDir": "src",
+    "outDir": "lib",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "composite": true
   },
-  "lib": ["es6"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"],
+  "lib": ["es6"],
+  "references": [] 
 }

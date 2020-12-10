@@ -2,9 +2,9 @@
    "name": "coinbase-ts",
    "version": "0.0.1",
    "description": "Typescript client library for Coinbase Pro API",
-   "main": "dist/app.js",
+   "main": "app.js",
    "scripts": {
-      "start": "tsc && cp index.html dist && serve dist",
+      "start": "tsc && serve",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
    "author": "lsgrodev@gmail.com",
